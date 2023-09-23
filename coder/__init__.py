@@ -1,7 +1,7 @@
 import requests
 
 def coder(text:str)->str:
-    url = "http://localhost:8080/coder"
+    url = "http://plantuml:8080/coder"
     headers = {
         "Content-Type": "text/plain",
         "accept": "*/*",
